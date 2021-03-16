@@ -248,6 +248,7 @@ a {
   padding: 2rem;
 }
 
+
 .hebergements {
   display: grid;
   column-gap: 2rem;
@@ -382,11 +383,12 @@ a {
   }
 }
 @media (max-width: 1000px) {
-  .hhebergementsPopular {
+  .hebergementsPopular {
     grid-template-columns: 1fr;
     grid-template-rows: auto repeat(3, 9rem);
   }
 }
+
 .activites {
   display: grid;
   column-gap: 2rem;
